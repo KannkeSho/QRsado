@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>佐渡金山</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>佐渡金山</h1>
+        <img src="{{ url_for('static', filename='/img/sadokinnzann.jpg')}}" alt="画像">
+        <p>佐渡金山（さどきんざん）は、新潟県佐渡島にある歴史的な金鉱山です。江戸時代の1601年に発見され、徳川幕府の重要な財源として、特に17世紀から19世紀にかけて大規模に採掘が行われました。最盛期には日本最大の金山として多くの金と銀を産出し、佐渡島の経済と発展に大きく貢献しました。明治時代以降も近代化が進み、1912年には佐渡鉱山株式会社が設立されました。1989年に採掘は終了しましたが、現在では観光地として歴史的遺産が保存され、多くの観光客が訪れています。</p>
+        <br>
+        <div class="info">
+            <p>住所: 〒952-1501 新潟県佐渡市下相川1305</p>
+            <p>電話番号: 0259-74-2389</p>
+            <p>メール: info@sado-kinzan.com</p>
+            <p>画像引用元:<a href="https://niigata-kankou.or.jp/location/site/41197">https://niigata-kankou.or.jp/location/site/41197</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

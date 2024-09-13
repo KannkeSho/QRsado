@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>二ツ亀海水浴場</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>二ツ亀海水浴場</h1>
+        <img src="{{ url_for('static', filename='/img/hutatugame.jpg')}}" alt="画像">
+        <p>二ツ亀海水浴場（ふたつがめかいすいよくじょう）は、新潟県佐渡島の北部に位置する美しい海水浴場です。名前の由来は、海に浮かぶ2つの大きな岩が亀のように見えることからきています。この独特な景観と、透明度の高い海が訪れる人々を魅了します。遠浅のビーチで、波も比較的穏やかなため、家族連れや子どもにも人気です。特に夏には多くの海水浴客が訪れ、海水浴だけでなく、シュノーケリングや磯遊びも楽しめます。また、ビーチからは岩と海が織りなす美しい風景を眺めることができ、夕日が沈む時間帯は特にロマンチックな景色が広がります。</p>
+        <br>
+        <div class="info">
+            <p>住所: 〒952-3205 新潟県佐渡市 鷲崎</p>
+            <p>画像引用元:<a href="https://www.visitsado.com/spot/detail0407/">https://www.visitsado.com/spot/detail0407/</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

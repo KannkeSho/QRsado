@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>長谷寺</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>長谷寺</h1>
+        <img src="{{ url_for('static', filename='/img/usagi.jpg')}}" alt="画像">
+        <p>長谷寺（ちょうこくじ）は、新潟県佐渡市にある曹洞宗の寺院で、佐渡三十三観音霊場の一つです。開山は平安時代に遡り、由緒ある寺として地域に親しまれています。特に本尊である十一面観音菩薩像が有名で、信仰の対象となっています。周囲には自然豊かな環境が広がり、境内は四季折々の風景に包まれ、特に春の桜や秋の紅葉が美しいです。また、静寂な雰囲気の中で心を落ち着けて参拝できるため、観光客や修行者が訪れることも多いです。長谷寺は、歴史と自然が調和する佐渡の名所の一つで、心を癒す場所として広く知られています。</p>
+        <br>
+        <div class="info">
+            <p>住所: 〒952-0204 新潟県佐渡市長谷13</p>
+            <p>画像引用元:<a href="https://sado-biyori.com/information/news10035/">https://sado-biyori.com/information/news10035/</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

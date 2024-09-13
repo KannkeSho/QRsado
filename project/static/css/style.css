@@ -1,0 +1,26 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+#wrapper{
+	margin: 0px auto 0px auto;
+	width: 100vh; height: auto;
+}
+
+#msg{
+	margin: 0px; padding: 10px;
+	background-color: lightgray;
+	text-align: center;
+}
+
+#canvas{
+	width: 100%; height: auto;
+	background-color: silver;
+}

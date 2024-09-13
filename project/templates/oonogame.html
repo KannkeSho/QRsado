@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大野亀</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>大野亀</h1>
+        <img src="{{ url_for('static', filename='/img/oonogame.jpg')}}" alt="画像">
+        <p>大野亀（おおのがめ）は、新潟県佐渡島の北西部に位置する高さ約167メートルの大きな岩山です。その形が亀のように見えることからこの名がつけられています。大野亀は佐渡の自然景観を象徴する名所の一つで、雄大な海岸線とともに訪れる観光客を魅了します。特に5月から6月にかけて咲くトビシマカンゾウという黄色い花が岩肌を彩り、美しい風景が広がります。また、登山道が整備されており、頂上からは日本海や佐渡島の絶景を一望できます。自然と歴史が織りなす大野亀は、佐渡の豊かな自然環境を感じる場所として多くの人々に親しまれています。</p>
+        <br>
+        <div class="info">
+            <p>住所: 〒952-1501 新潟県佐渡市願</p>
+            <p>電話番号: 0259-27-5000</p>
+            
+            <p>画像引用元:<a href="https://www.visitsado.com/spot/detail0133/">https://www.visitsado.com/spot/detail0133/</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

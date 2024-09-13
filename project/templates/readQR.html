@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet">
+          <script src="{{url_for('static', filename='scripts/jsQR.js')}}"></script>
+          <script src="{{url_for('static', filename='scripts/main.js')}}"></script>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+          
+    </head>
+    <body>
+        
+        <div id="main">
+		    <div id="wrapper">
+			<div id="msg">Unable to access video stream.</div>
+			<canvas id="canvas"></canvas>
+		</div>
+        <p>指定されたQRコードを読み取ってください！<br>QRコードを読み取ると地域の紹介文が出ます。</p>
+
+        </div>
+    </body>
+</html>
